@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>Jade</td>
+            <td>9</td>
+            <td><button onclick="deleteBox(this)">Delete</button></td>
+            <td><button onclick="editButton(this)">Update</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jerry</td>
+            <td>8</td>
+            <td><button onclick="deleteBox(this)">Delete</button></td>
+            <td><button onclick="editButton(this)">Update</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Nuflah</td>
+            <td>10</td>
+            <td><button onclick="deleteBox(this)">Delete</button></td>
+            <td><button onclick="editButton(this)">Update</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Quichyi</td>
+            <td>10</td>
+            <td><button onclick="deleteBox(this)">Dalete</button></td>
+            <td><button onclick="editButton(this)">Update</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Izabal</td>
+            <td>10</td>
+            <td><button onclick="deleteBox(this)">Delete</button></td>
+            <td><button onclick="editButton(this)">Update</button></td>
+        </tr>
+    </table>
+    <br><br><br>
+
+    <form >
+        <table>
+            <h2>Form</h2>
+            <thead>
+                <tr>
+                    <td>Name
+                        <input type="text" name="Name" placeholder="Name" id="nameValue"> 
+                    </td>
+
+                    <td>Age
+                        <input type="number" name="Age" placeholder="Age" id="ageValue"> 
+                    </td>
+                    <td><button type="submit" id="submit">Submit</button></td>
+                </tr>
+            </thead>
+        </table>
+    </form>
+    <br><br><br>
+
+    <form>
+        <table border="2">
+            <tbody onclick="table(event)">
+                <td  class="td">Name</td>
+                <td  class="td"">Age</td>
+                <td  class="td">Action</td>
+            </tbody>
+        </table>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
