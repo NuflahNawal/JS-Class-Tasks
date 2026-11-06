@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(Assests/gif/Game2\ background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.char {
+    position: absolute;
+    bottom: 55px;
+}
+
+#char1 {
+    left: 70px;
+    height: 220px;
+}
+
+#char2 {
+    right: 70px;
+}
