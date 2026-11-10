@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.darkMode {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin: 20px;
+    padding: 13px;
+}
+.lightMode {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    margin: 20px;
+    padding: 13px;
+}
+
+.darkMode:hover {
+    cursor: pointer;
+}
+
+.lightMode {
+    cursor: pointer;
+}
