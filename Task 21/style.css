@@ -1,0 +1,10 @@
+.postBtn{
+    background-color: #00897b;
+}
+.postBtn:hover, .bgColor:hover {
+    background-color: #0c9b8d;
+    cursor: pointer;
+}
+.bgColor {
+    background-color: #00897b;
+}
